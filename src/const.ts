@@ -17,7 +17,7 @@ const CITIES: OfferCity[] = [
   'Amsterdam',
   'Hamburg',
   'Dusseldorf',
-] as const;
+];
 
 const AppRoute = {
   Main: '/',
