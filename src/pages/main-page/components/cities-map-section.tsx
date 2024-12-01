@@ -1,4 +1,4 @@
-import { OFFERS_COUNT } from '../../../const';
+import { OFFERS_COUNT } from '../../../const.ts';
 
 export default function CitiesMapSection() {
   return (

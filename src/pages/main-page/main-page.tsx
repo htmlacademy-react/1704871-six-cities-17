@@ -1,10 +1,10 @@
 import Header from '../../components/header/header.tsx';
 import LocationsList from '../../components/locations-list/locations-list.tsx';
-import CitiesPlaces from './components/cities-places.tsx';
-import CitiesNoPlaces from './components/cities-no-places.tsx';
+import CitiesOffers from './components/cities-offers.tsx';
+import CitiesNoOffers from './components/cities-no-offers.tsx';
 import CitiesMapSection from './components/cities-map-section.tsx';
 import clsx from 'clsx';
-import { OFFERS_COUNT } from '../../const';
+import { OFFERS_COUNT } from '../../const.ts';
 
 export default function MainPage() {
   return (
@@ -23,7 +23,7 @@ export default function MainPage() {
             !OFFERS_COUNT && 'cities__places-container--empty',
             'container')}
           >
-            {OFFERS_COUNT ? <CitiesPlaces /> : <CitiesNoPlaces />}
+            {OFFERS_COUNT ? <CitiesOffers /> : <CitiesNoOffers />}
             <CitiesMapSection />
           </div>
         </div>

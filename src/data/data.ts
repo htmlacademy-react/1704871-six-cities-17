@@ -1,6 +1,6 @@
-import { mockOffersList } from '../mock-data/mock-offers-list';
-import { CITIES } from '../const';
-import { Offer } from '../types';
+import { mockOffersList } from '../mock-data/mock-offers-list.ts';
+import { CITIES } from '../const.ts';
+import { Offer } from '../types.ts';
 
 const offersByCities = CITIES.map((city) => [...mockOffersList]
   .filter(({ city: { name } }) => city === name));

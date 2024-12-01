@@ -1,3 +1,5 @@
+import type { OfferCity } from './types.ts';
+
 const FAVORITE_COUNT = 4;
 const FAVORITE_OFFERS_COUNT = 4;
 const OFFERS_COUNT = 5;
@@ -8,7 +10,7 @@ const RATING_STARS_COUNT = 5;
 const NEIGHBOURHOOD_PLACES = 3;
 const GALLERY_IMAGE_COUNT = 6;
 
-const CITIES = [
+const CITIES: OfferCity[] = [
   'Paris',
   'Cologne',
   'Brussels',
